@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 0.5rem;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: #fff;
+        }
+
+        section {
+            padding: 80px 2rem; /* Adjust padding based on your needs */
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Solomedia Network</h1>
+        <p>From global events to local highlights, we've streamlined access to the latest headlines, ensuring you're always in the know.</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Landing Page</h2>
+        <p>Dive into the heart of breaking news, captivating stories, and a seamless digital experience with our Media Website Landing Page. We've curated a space that not only keeps you informed but also engages and captivates from the moment you arrive.
+
+</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our Media Website – your go-to destination for staying informed, engaged, and enlightened. We believe in the power of information to inspire change, foster understanding, and connect communities. Here's a glimpse into who we are and our commitment to delivering quality journalism</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>Welcome to SoloMediaNetwork, where innovation meets information! Our comprehensive range of services is tailored to meet the diverse needs of our audience while ensuring a dynamic and engaging experience. </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>ashishmishra26607@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Change navigation style on scroll
+        window.addEventListener('scroll', function () {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('scrolled', window.scrollY > 0);
+        });
+    </script>
+
+</body>
+
+</html>
